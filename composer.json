@@ -1,0 +1,22 @@
+{
+    "name": "mist-webit/yii2-materialize",
+    "description": "Yii2 asset for Materialize css framework http://materializecss.com/",
+    "type": "yii2-extension",
+    "keywords":["yii2","extension","asset","material"],
+    "license":"MIT",
+    "authors":[
+        {
+            "name":"Mika Ståhlberg",
+            "email":"mika.stahlberg@interaktiva.fi"
+        }
+    ],
+    "require":{
+        "yiisoft/yii2": "*",
+        "bower-asset/materialize": "*"
+    },
+    "autoload":{
+        "psr-4":{
+            "mistwebit\\materialize\\": ""
+        }
+    }
+}

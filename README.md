@@ -1,6 +1,6 @@
-Yii2 Material Design for Bootstrap Asset
+Yii2 asset for Materialize
 =================
-Material Design for Bootstrap Asset for Yii2 Web Application. Material design theme for Bootstrap 3 https://github.com/FezVrasta/bootstrap-material-design
+Yii2 asset for Materialize css framework http://materializecss.com/
 
 Installation
 ------------
@@ -12,7 +12,7 @@ Add
             [
                 {
                     "type": "vcs",
-                    "url": "https://github.com/mist-webit/yii2-bootstrap-material-design"
+                    "url": "https://github.com/mist-webit/yii2-materialize"
                 }
             ],
 ```
@@ -20,7 +20,7 @@ Add
 to your composer.json file and add 
 
 ```
-"mist-webit/yii2-bootstrap-material-design": "*"
+"mist-webit/yii2-materialize": "*"
 ```
 to the require section of your composer.json file.
 
@@ -30,7 +30,7 @@ Usage
 Open your layout views/layouts/main.php and add
 
 ```
-use mistwebit\materialbootstrap;
+use mistwebit\materialize\MaterializeAsset;
 
-materialbootstrap\MaterialLoaderAsset::register($this);
+MaterializeAsset::register($this);
 ```
